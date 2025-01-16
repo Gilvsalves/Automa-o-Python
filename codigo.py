@@ -12,7 +12,7 @@ pyautogui.PAUSE = 0.5 #delay em segundos para todos os comandos pyautogui
 # pyautogui.press  #Precionar tecla
 # pyautogui.write  #Escrever
 # pyautogui.hotkey #Atalhos:
-# pyautogui.hotkey("alt","tab") #("ctrl","shift","n")
+# pyautogui.hotkey("alt","tab") #("ctrl","shift","n")Mouse  1
 
 pyautogui.press("win")
 pyautogui.write("chrome")
@@ -24,7 +24,7 @@ pyautogui.press("enter")
 
 time.sleep(3) #delay de execução apenas neste ponto, em segundos
 
-pyautogui.click(x=-199, y=-1692) # (x=-199, y=-1692, clicks=2) (x=-199, y=-1692, button=right) #auxiliarClick.py
+pyautogui.click(x=883, y=476) # (x=-199, y=-1692, clicks=2) (x=-199, y=-1692, button=right) #auxiliarClick.py
 pyautogui.write("python3@gmail.com")
 
 pyautogui.press("tab")
@@ -44,7 +44,7 @@ time.sleep(2)
 for linha in tabela.index: #Para cara linda da tabela faça isso:
     #linha++
     
-    pyautogui.click(x=-396, y=-1832)
+    pyautogui.click(x=674, y=330)
     
     codigo = tabela.loc[linha,"codigo"] # [linha,coluna]
     pyautogui.write(str(codigo)) #str() converte para string
